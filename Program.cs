@@ -1,4 +1,5 @@
 ﻿using WordsCounter;
+using NumberConverter;
 
 namespace sixthHomework
 {
@@ -48,7 +49,7 @@ namespace sixthHomework
         }
     }*/
 
-    class AdditionalTask1
+    /*class AdditionalTask1
     {
         static void Main()
         {
@@ -68,5 +69,17 @@ namespace sixthHomework
             }
 
         }
-    }
+    }*/
+
+    /*class AdditionalTask3
+    {
+        static void Main()
+        {
+            string text = "Все события начались в 893 году и длились ровно 20 лет.";
+
+            string result = NumberConverter.NumberConverter.ConvertNumbersToWords(text);
+
+            Console.WriteLine(text + result);
+        }
+    }*/
 }

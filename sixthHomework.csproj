@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="NumberConverter">
+      <HintPath>..\NumberConverter\bin\Debug\net8.0\NumberConverter.dll</HintPath>
+    </Reference>
     <Reference Include="WordsCounter">
       <HintPath>..\WordsCounter\bin\Debug\net8.0\WordsCounter.dll</HintPath>
     </Reference>
